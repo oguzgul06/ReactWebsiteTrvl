@@ -1,8 +1,8 @@
 import React from "react";
-import CardItem from "./CardItem";
 import "./Cards.css";
+import CardItem from "./CardItem";
 
-const Cards = () => {
+function Cards() {
   return (
     <div className="cards">
       <h1>Check out these EPIC Destinations!</h1>
@@ -46,6 +46,6 @@ const Cards = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Cards;
