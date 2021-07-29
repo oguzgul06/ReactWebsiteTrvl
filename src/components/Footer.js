@@ -53,10 +53,18 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <a href="https://www.instagram.com/?hl=tr">
+              <Link to="/">Instagram</Link>
+            </a>
+            <a href="https://tr-tr.facebook.com/">
+              <Link to="/">Facebook</Link>
+            </a>
+            <a href="https://www.youtube.com/">
+              <Link to="/">Youtube</Link>
+            </a>
+            <a href="https://twitter.com/?lang=tr">
+              <Link to="/">Twitter</Link>
+            </a>
           </div>
         </div>
       </div>
@@ -68,7 +76,7 @@ function Footer() {
               <i class="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">TRVL © 2020</small>
+          <small class="website-rights">TRVL © 2021</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
@@ -76,7 +84,9 @@ function Footer() {
               target="_blank"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
+              <a href="https://tr-tr.facebook.com/">
+                <i class="fab fa-facebook-f" />
+              </a>
             </Link>
             <Link
               class="social-icon-link instagram"
@@ -84,7 +94,9 @@ function Footer() {
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <a href="https://www.instagram.com/?hl=tr">
+                <i class="fab fa-instagram" />
+              </a>
             </Link>
             <Link
               class="social-icon-link youtube"
@@ -92,7 +104,9 @@ function Footer() {
               target="_blank"
               aria-label="Youtube"
             >
-              <i class="fab fa-youtube" />
+              <a href="https://www.youtube.com/">
+                <i class="fab fa-youtube" />
+              </a>
             </Link>
             <Link
               class="social-icon-link twitter"
@@ -100,7 +114,9 @@ function Footer() {
               target="_blank"
               aria-label="Twitter"
             >
-              <i class="fab fa-twitter" />
+              <a href="https://twitter.com/?lang=tr">
+                <i class="fab fa-twitter" />
+              </a>
             </Link>
             <Link
               class="social-icon-link twitter"
@@ -108,7 +124,9 @@ function Footer() {
               target="_blank"
               aria-label="LinkedIn"
             >
-              <i class="fab fa-linkedin" />
+              <a href="https://tr.linkedin.com/">
+                <i class="fab fa-linkedin" />
+              </a>
             </Link>
           </div>
         </div>
