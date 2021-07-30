@@ -1,19 +1,23 @@
 import React from "react";
 import "../../App.css";
-import Footer from "../Footer";
-import Cards from "../Cards";
+
+import { Button } from "../Button";
 
 export default function Products() {
   return (
-    <>
-      <img
-        alt="Travel Image"
-        src="images/img-11.jpg"
-        width="1500"
-        height="300"
-      />
-      <Cards />
-      <Footer />;
-    </>
+    <div className="hero-container">
+      <video src="/videos/video-2.mp4" autoPlay loop muted />
+      <h1>PRODUCT</h1>
+      <p>Do you want produtc?</p>
+      <div className="hero-btns">
+        <Button
+          className="btns"
+          buttonStyle="btn--outline"
+          buttonSize="btn--large"
+        >
+          GET PRODUCTS
+        </Button>
+      </div>
+    </div>
   );
 }
